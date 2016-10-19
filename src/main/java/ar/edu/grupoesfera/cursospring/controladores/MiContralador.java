@@ -23,7 +23,7 @@ public class MiContralador {
 		model.put("message", message);
 		return new ModelAndView("mensaje3", model);
 		
-		//
+		////
 	}
 	
 }
