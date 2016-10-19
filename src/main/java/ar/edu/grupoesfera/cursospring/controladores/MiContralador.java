@@ -19,7 +19,8 @@ public class MiContralador {
 	@RequestMapping("/hola2/{nombre}")
 	public ModelAndView helloWorld2(@PathVariable String nombre) {
 		String message = "Hola, " + nombre + "!";
-		ModelMap model = new ModelMap();
+		
+	    ModelMap model = new ModelMap();
 		model.put("message", message);
 		return new ModelAndView("mensaje3", model);
 		
