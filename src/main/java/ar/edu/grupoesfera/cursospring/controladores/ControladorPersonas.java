@@ -33,6 +33,8 @@ public class ControladorPersonas {
 		
 		ModelMap model = new ModelMap();
 		model.put("msg", message);
+		
+		
 		model.put("msg2", message2);
 		return new ModelAndView("mensaje", model);
 	}
