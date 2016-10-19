@@ -26,8 +26,13 @@ public class ControladorPersonas {
 	@RequestMapping(value="/hi/amigo", method = RequestMethod.GET)
 	public ModelAndView helloWorld(@RequestParam(value= "firstname", required = false ) String nombre,
 								   @RequestParam(value= "sourcename") String apellido) {
+		   
 		
+		
+		 
 		String message = "el nombre ingresado es, " + nombre + " !";
+		
+		
 		String message2  = "el apellido es, " + apellido;
 	
 			ModelMap model = new ModelMap();
