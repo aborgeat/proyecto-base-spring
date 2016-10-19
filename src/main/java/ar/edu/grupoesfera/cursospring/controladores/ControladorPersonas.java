@@ -30,8 +30,7 @@ public class ControladorPersonas {
 		String message = "el nombre ingresado es, " + nombre + " !";
 		String message2  = "el apellido es, " + apellido;
 	
-		
-		ModelMap model = new ModelMap();
+			ModelMap model = new ModelMap();
 		model.put("msg", message);
 		model.put("msg2", message2);
 		return new ModelAndView("mensaje", model);
